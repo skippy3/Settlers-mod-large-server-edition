@@ -10277,7 +10277,7 @@ Mesh files no longer used:
 	<property name="Material" value="organic"/>
 	<property name="HoldType" value="23"/>
 	<property name="Stacknumber" value="500"/> 
-	<property name="EconomicValue" value="15000"/>
+	<property name="EconomicValue" value="3000"/>
 </item>
 
 <item id="1529" name="paintball">
