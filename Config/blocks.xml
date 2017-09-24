@@ -3577,7 +3577,7 @@ group desc for stuff like metal siding
 
 <block id="363" name="poleTop01">
 	<property name="Material" value="metal"/>
-	<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+	<property name="StabilitySupport" value="true"/> <!-- build restriction -->
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="Industrial/pole_top01" param1="main_mesh"/>
@@ -15245,7 +15245,7 @@ group desc for stuff like metal siding
   	<property name="DowngradeBlock" value="treasuremasterrock" />
 	<property name="CanPickup" value="false" />
 	<property name="FallDamage" value="false"/>
-	<property name="DroppedEntityClass" value="DroppedLootContainer"/>
+	<property name="DroppedEntityClass" value="DroppedLootContainermasters"/>
  </block>
  
 <block id="1999" name="cntCollapsedBatterybank">
@@ -16092,7 +16092,7 @@ group desc for stuff like metal siding
   	<property name="DowngradeBlock" value="zombiemaster" />
 	<property name="CanPickup" value="false" />
 	<property name="FallDamage" value="false"/>
-	<property name="DroppedEntityClass" value="DroppedLootContainer"/>
+	<property name="DroppedEntityClass" value="DroppedLootContainermasters"/>
  </block>
  
 <block id="2042" name="sandStoneNOSPAWN">
@@ -16535,7 +16535,7 @@ group desc for stuff like metal siding
   	<property name="DowngradeBlock" value="homewreckermaster" />
 	<property name="CanPickup" value="false" />
 	<property name="FallDamage" value="false"/>
-	<property name="DroppedEntityClass" value="DroppedLootContainer"/>
+	<property name="DroppedEntityClass" value="DroppedLootContainermasters"/>
 	<property name="SellableToTrader" value="false" />
  </block>
 

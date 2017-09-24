@@ -1,5 +1,5 @@
 <controls>
-<!-- S420 Start -->
+<!-- S420 Start
 	<S420_item_stack>
 		<rect controller="ItemStack" style="S420itemStack, hover" collider_scale="1.1">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="88" height="88" color="[transparent]" type="sliced" fillcenter="false" />	
@@ -32,7 +32,7 @@
 			<label depth="1" pos="0,4" text="{objectiveoptional}{objectivedescription} [{objectivecompletehexcolor}]{objectivestate}[-]" upper_case="true" font_size="26" justify="right" visible="{hasobjective}" width="{objectivetextwidth}" effect="outline" />
 		</rect>
 	</S420_quest_objective_tracker_entry>
-<!-- S420 End -->
+ S420 End -->
 	<slider>
 		<rect depth="1" controller="Slider" height="24">
 			<label depth="1" pos="0, -6"  width="128" height="24" text="{name}"/>

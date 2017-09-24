@@ -1118,7 +1118,7 @@
 		</effect>
 	</perk>
 	
-	<perk name="Diamond Armor" icon="armor_iron" description_key="diamondarmorskilldesc" title_key="Diamond Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="150" group="armor_iron">
+	<perk name="Diamond Armor" icon="armor_iron" description_key="diamondarmorskilldesc" title_key="Diamond Armor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="50" group="armor_iron">
 		<requirement perk_level="1" required_player_level="260" required_skill_name="craftSkillArmor" required_skill_level="10"/>
 		<recipe name="diamondgloves" unlock_level="1"/>
 		<recipe name="diamondmask" unlock_level="1"/>
