@@ -91,6 +91,7 @@
 <!-- PZHUD edit 1 of 2 ***                                                                                                                                      -->
 			<window name="PZHUDCompass" />
 			<window name="playerElevation" />
+			<window name="S420ActiveBuffsWindow" anchor="LeftBottom" />
 <!-- PZHUD end edit 1 of 2 ***                                                                                                                                  -->																																								   																																								   
 		</window_group>
 		
@@ -113,7 +114,7 @@
 <!-- PZHUD edit 2 of 2 ***                                                                                                                                      -->
 		<window_group name="toolbelt" actionSet="false">
 			<window name="windowToolbelt" anchor="CenterBottom" />
-			<window name="HUDLeftStatBars" anchor="LeftBottom" />
+			<!--window name="HUDLeftStatBars" anchor="LeftBottom" /-->
 			<window name="HUDRightStatBars" anchor="RightBottom" />
 			<window name="windowQuestTracker" anchor="RightTop" />
 			<window name="pzTest" />

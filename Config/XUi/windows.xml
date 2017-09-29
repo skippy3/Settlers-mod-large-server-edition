@@ -155,6 +155,99 @@
 			</grid>
 		</rect>
 	</window>
+	
+	<window name="S420ActiveBuffsWindow" pos="6,35" Controller="ActiveBuffWindow" width="320" >
+		<button name="pageDown" size="1,1" pos="9999,9999" />
+		<label name="pageNumber" pos="9999,9999" width="1" height="1" />
+		<button name="pageUp" size="1,1" pos="9999,9999" />
+
+		<rect name="buffs" controller="ActiveBuffList">
+			<panel height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,27" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,54" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,81" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,108" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,135" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,162" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+
+			<panel pos="0,189" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,216" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,243" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,270" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,297" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,324" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+			<panel pos="0,351" height="24" controller="ActiveBuffEntry" width="314" disableautobackground="true" >	
+				<sprite depth="0" name="background" color="[transparent]" />
+				<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="9,-5"/>
+				<label depth="2" pos="39,-5" width="280" height="24" text="{buffname|once} [DECEA3]{buffdisplayinfo}[-]" font_size="22" pivot="topleft" effect="outline" />
+			</panel>
+			
+		</rect>
+	</window>
 <!-- S420 End -->	
 	<window name="HUDLeftStatBars">
 	<!-- PZHUD edit 1 of 2 ***                                                                                                                                 -->																																						   
