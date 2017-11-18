@@ -1265,7 +1265,7 @@
 	<property name="ExperienceGain" value="200"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
-	<property name="TimeStayAfterDeath" value="2"/>
+	<property name="TimeStayAfterDeath" value="0"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="99"/>
