@@ -1457,13 +1457,6 @@ Mesh files no longer used:
 </item>
 
 <item id="1470" name="handlep">
-	<property name="Extends" value="handZombieCop"/>
-	<property class="Action0"> <!-- Fire action -->
-		<property name="Magazine_items" value="rocket"/>
-	</property>
-</item>
-
-<item id="1470" name="handlep">
 	<property name="Extends" value="handMaster"/>
 	<property name="CreativeMode" value="None"/>
 	<property name="Degradation" value="99999" param1="true"/>
