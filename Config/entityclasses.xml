@@ -28,7 +28,6 @@
 	<property name="CrouchYOffsetFP" value="-0.65"/>
 	<property name="IsMale" value="true"/>
 	<property name="TimeStayAfterDeath" value="10"/>
-
 	<property name="SurfaceCategory" value="organic"/>
 	<property name="PushFactor" value="5"/>
 	<property name="Weight" value="70"/>
@@ -154,15 +153,15 @@
 	<property name="SoundAttack" value="Enemies/Base_Zombie_Male/zombiemaleattack"/>
 	<property name="SoundSleeperSense" value="sleepersense"/>
 	<property name="SoundSleeperBackToSleep" value="sleeperbacktosleep"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="0.5"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="15"/>
 
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="330"/>
-	<property name="DeadBodyHitPoints" value="350"/> <!-- For harvesting -->
+	<property name="DeadBodyHitPoints" value="1"/> <!-- For harvesting -->
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="HeadDismemberBaseChance" value="10"/>
@@ -726,7 +725,7 @@
 	<property name="ModelType" value="Standard"/>
 	<property name="WalkType" value="2"/>
 	<property name="MaxHealth" value="450"/>
-	<property name="ExperienceGain" value="762"/>
+	<property name="ExperienceGain" value="100"/>
 	<property name="PhysicsBody" value="zombieStandardFemale"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
@@ -746,7 +745,7 @@
 <entity_class name="zombieSnowFeral" extends="zombieSnow">
 	<property name="HandItem" value="handZombieStrongFeral"/>
 	<property name="MaxHealth" value="700"/>
-	<property name="ExperienceGain" value="726"/>
+	<property name="ExperienceGain" value="326"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="LootListOnDeath" value="66"/>
@@ -777,7 +776,7 @@
 	<property name="NightWanderSpeed" value="0.08"/>
 	<property name="NightApproachSpeed" value="1.1"/>
 	<property name="PanicSpeed" value="1.2"/>
-	<property name="ExperienceGain" value="494"/>
+	<property name="ExperienceGain" value="194"/>
 	<property name="HeadDismemberThreshold" value="20"/>
 	<property name="LowerLegDismemberThreshold" value="0"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
@@ -795,7 +794,7 @@
 <entity_class name="zombieSpiderFeral" extends="zombieSpider">
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="300"/>
-	<property name="ExperienceGain" value="726"/>
+	<property name="ExperienceGain" value="300"/>
 	<property name="ApproachSpeed" value="1.35"/>
 	<property name="NightApproachSpeed" value="1.35"/>
 	<property name="ApproachSpeed" value="1.1"/>
@@ -806,7 +805,7 @@
 <entity_class name="zombieSpiderFeralRadiated" extends="zombieSpiderFeral">
 	<property name="HandItem" value="handZombie02Feral"/>
 	<property name="MaxHealth" value="450"/>
-	<property name="ExperienceGain" value="762"/>
+	<property name="ExperienceGain" value="300"/>
 	<property name="ParticleOnSpawn" value="ParticleEffects/RadiatedParticlesOnMesh" param1="SetShapeToMesh0"/>
 	<property name="ReplaceMaterial0" value="entities/zombies/materials/spider_rad"/>
 	<property name="ReplaceMaterial1" value="entities/zombies/materials/rad_eye"/>
@@ -1261,12 +1260,12 @@
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
 	<property name="MaxHealth" value="1000"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
-	<property name="ExperienceGain" value="2000"/>
+	<property name="ExperienceGain" value="200"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="99"/>
@@ -1284,10 +1283,10 @@
 	<property name="Explosion.BlockDamage" value="5"/>
 	<property name="Explosion.EntityDamage" value="15"/>
 	<property name="Explosion.DamageBonus.earth" value="0"/>
-	<property name="HeadDismemberBaseChance" value="0.5" />
-	<property name="HeadDismemberBonusChance" value="3.0"/>
-	<property name="HeadDismemberThreshold" value="0"/>
-	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="HeadDismemberBaseChance" value="0.0" />
+	<property name="HeadDismemberBonusChance" value="0"/>
+	<property name="HeadDismemberThreshold" value="0.5"/>
+	<property name="LowerLegDismemberThreshold" value="3"/>
 	<property name="UpperLegDismemberThreshold" value="0"/>
 	<property name="LowerArmDismemberThreshold" value="0"/>
 	<property name="UpperArmDismemberThreshold" value="0"/>
@@ -1327,13 +1326,13 @@
 	<property name="PhysicsBody" value="zombieUMA"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="MaxHealth" value="1500"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="MaxHealth" value="500"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
-	<property name="ExperienceGain" value="2000"/>
+	<property name="ExperienceGain" value="600"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="17"/>
@@ -1392,17 +1391,16 @@
 	<property name="PhysicsBody" value="zombieUMA"/>
 	<property name="RootMotion" value="true"/>
 	<property name="HasDeathAnim" value="true"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="Weight" value="70"/>
 	<property name="PushFactor" value="20"/>
-	<property name="TimeStayAfterDeath" value="30"/>
+	<property name="TimeStayAfterDeath" value="2"/>
 	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
 	<property name="AttackTimeoutNight" value="1.1"/>
 	<property name="LootListOnDeath" value="99"/>
 	<property name="AITask-1" value="BreakDoor"/>
 	<property name="AITask-2" value="BreakBlock"/>
-	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
 	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
 	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
 	<property name="AITask-6" value="ApproachSpot"/>
@@ -1419,7 +1417,7 @@
 	<property name="LegCrippleThreshold" value="0.0"/>
 	<property name="KnockdownProneDamageThreshold" value="0.0"/>
 	<property name="KnockdownKneelDamageThreshold" value="0.0"/>
-	<property name="ApproachSpeed" value="2.0"/>
+	<property name="ApproachSpeed" value="1.0"/>
 	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
@@ -1436,7 +1434,7 @@
 	<property name="HandItem" value="handZombieHorny"/>
 	<property name="LootListOnDeath" value="100"/>
 	<property name="WalkType" value="5"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="100"/>
 </entity_class>
@@ -1466,7 +1464,7 @@
 	<property name="SoundAttack" value="Enemies/Zombie_Dogs/zombiedogattack"/>
 	<property name="SoundSense" value="Enemies/Zombie_Dogs/zombiedogsense"/>
 	<property name="SoundGiveUp" value="Enemies/Zombie_Dogs/zombiedoggiveup"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="HeadDismemberBaseChance" value="0" />
 	<property name="HeadDismemberBonusChance" value="0"/>
@@ -1477,13 +1475,13 @@
 	<property name="UpperArmDismemberThreshold" value="0"/>
 	<property name="LegCrawlerThreshold" value="0"/>
 	<property name="LegCrippleThreshold" value="0"/>
-	<property name="KnockdownProneDamageThreshold" value="0.08"/>
-	<property name="KnockdownKneelDamageThreshold" value="0.08"/>
+	<property name="KnockdownProneDamageThreshold" value="0.00"/>
+	<property name="KnockdownKneelDamageThreshold" value="0.00"/>
 </entity_class>
 
 <entity_class name="zombieDitz" extends="othercustomzombietemplate">
 	<property name="Archetype" value="ditz"/>
-	<property name="MaxHealth" value="500"/>
+	<property name="MaxHealth" value="200"/>
 	<property name="ExperienceGain" value="2000"/>
 	<property name="SoundRandom" value="Player_Female/player2painlg"/>
 	<property name="SoundAlert" value="Player_Female/player2painlg"/>
@@ -1495,14 +1493,14 @@
 	<property name="HandItem" value="handZombieDitz"/>	
 	<property name="LootListOnDeath" value="100"/>
 	<property name="ApproachSpeed" value="20.0"/>	
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 </entity_class>	
 
 <entity_class name="angryzombieDitz" extends="othercustomzombietemplate">
 	<property name="Archetype" value="ditz"/>
-	<property name="MaxHealth" value="500"/>
-	<property name="ExperienceGain" value="2000"/>
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="1500"/>
 	<property name="SoundRandom" value="Player_Female/player2painlg"/>
 	<property name="SoundAlert" value="Player_Female/player2painlg"/>
 	<property name="SoundAttack" value="Player_Female/player2painlg"/>
@@ -1513,15 +1511,15 @@
 	<property name="HandItem" value="handAnimalWolf"/>	
 	<property name="LootListOnDeath" value="17"/>
 	<property name="ApproachSpeed" value="20.0"/>	
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="HeadDismemberBaseChance" value="0" />
 </entity_class>	
 
 <entity_class name="badasszombieDitz" extends="othercustomzombietemplate">
 	<property name="Archetype" value="ditz"/>
-	<property name="MaxHealth" value="1500"/>
-	<property name="ExperienceGain" value="2000"/>
+	<property name="MaxHealth" value="500"/>
+	<property name="ExperienceGain" value="700"/>
 	<property name="SoundRandom" value="Player_Female/player2painlg"/>
 	<property name="SoundAlert" value="Player_Female/player2painlg"/>
 	<property name="SoundAttack" value="Player_Female/player2painlg"/>
@@ -1529,10 +1527,10 @@
 	<property name="SoundDeath" value="Player_Female/player2painlg"/>
 	<property name="SoundSense" value="Player_Female/player2painlg"/>	
 	<property name="WalkType" value="5"/>
-	<property name="HandItem" value="handZombieDitz"/>	
+	<property name="HandItem" value="handAnimalWolf"/>	
 	<property name="LootListOnDeath" value="17"/>
 	<property name="ApproachSpeed" value="20.0"/>	
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="HeadDismemberBaseChance" value="0" />
 </entity_class>	
@@ -1550,7 +1548,7 @@
 	<property name="HandItem" value="handcuriousGeorge"/>
 	<property name="LootListOnDeath" value="102"/>
 	<property name="WalkType" value="2"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="HeadDismemberBaseChance" value="0" />
 </entity_class>
@@ -1558,7 +1556,7 @@
 <entity_class name="leprechaun" extends="othercustomzombietemplate">
 	<property name="Archetype" value="leprochaunbomber"/>
 	<property name="MaxHealth" value="50"/>
-	<property name="ExperienceGain" value="450"/>
+	<property name="ExperienceGain" value="150"/>
 	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
 	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
 	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
@@ -1571,7 +1569,7 @@
 	<property name="HandItem" value="handlep"/>
 	<property name="LootListOnDeath" value="109"/>
 	<property name="WalkType" value="2"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="HeadDismemberBaseChance" value="0" />
 </entity_class>
@@ -1589,7 +1587,7 @@
 	<property name="HandItem" value="handbro"/>
 	<property name="LootListOnDeath" value="108"/>
 	<property name="WalkType" value="5"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="100"/>
 </entity_class>
@@ -1625,7 +1623,7 @@
 	<property name="HasDeathAnim" value="false"/>
 	<property name="TimeStayAfterDeath" value="45"/>
 	<property name="LootListOnDeath" value="15"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 </entity_class>
 
@@ -2306,6 +2304,30 @@
 	<property name="Faction" value="none"/>
 </entity_class>
 
+<entity_class name="DroppedLootContainermasters">
+	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="Faction" value="none"/>
+</entity_class>
+
+<entity_class name="Containerloot">
+	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
+	<property name="ModelType" value="Custom"/>
+	<property name="Prefab" value="Backpack"/>
+	<property name="Class" value="EntityLootContainer"/>
+	<property name="Parent" value="Backpack"/>
+	<property name="TimeStayAfterDeath" value="60"/>
+	<property name="IsEnemyEntity" value="false"/>
+	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
+	<property name="Faction" value="none"/>
+</entity_class>
+
 <entity_class name="EvisceratedRemains">
 	<property name="Mesh" value="Gore/gore_block1_bonesPrefab"/>
 	<property name="ModelType" value="Custom"/>
@@ -2440,7 +2462,7 @@
 	<property name="SoundAttack" value="malehateattack"/>
 	<property name="TimeStayAfterDeath" value="45"/>
 	<property name="LootListOnDeath" value="71"/>
-	<property name="CorpseBlock" value="GoreBlock1Prefab"/>
+	<property name="CorpseBlock" value="Mercied"/>
 	<property name="CorpseBlockChance" value="1"/>
 	<property name="ExperienceGain" value="494"/>
 	<property name="DeadBodyHitPoints" value="350"/>
@@ -2581,24 +2603,1471 @@
 	<property name="LegCrippleThreshold" value="0"/>
 	<property name="KnockdownProneDamageThreshold" value="0"/>
 	<property name="KnockdownKneelDamageThreshold" value="0"/>
-	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
  
-<entity_class name="DroppedLootContainermasters">
-	<property name="Mesh" value="LootContainers/backpack_droppedPrefab"/>
-	<property name="ModelType" value="Custom"/>
-	<property name="Prefab" value="Backpack"/>
-	<property name="Class" value="EntityLootContainer"/>
-	<property name="Parent" value="Backpack"/>
-	<property name="TimeStayAfterDeath" value="60"/>
-	<property name="IsEnemyEntity" value="false"/>
-	<property name="LootListOnDeath" value="47"/> <!-- used to determine container X/Y size -->
-	<property name="Faction" value="none"/>
+<!-- Horde night zombies addtl starts here -->
+
+<entity_class name="hordespidertemplate" extends="zombieTemplateMale">
+	<property name="Mesh" value="Zombies/zombieStandardSpiderRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="PhysicsBody" value="zombieStandard"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HandItem" value="hordespiderhandlvl1"/>	
+	<property name="HasDeathAnim" value="true"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="CanClimbVertical" value="true"/>
+	<property name="Immunity" value="sickness;disease;bleeding;wellness"/>
+	<property name="WalkType" value="1"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+	<property name="MaxHealth" value="300"/>
+	<property name="WanderSpeed" value="0.08"/>
+	<property name="ApproachSpeed" value="2.0"/>
+	<property name="NightWanderSpeed" value="0.08"/>
+	<property name="NightApproachSpeed" value="2.0"/>
+	<property name="PanicSpeed" value="1.2"/>
+	<property name="ExperienceGain" value="194"/>
+	<property name="LootListOnDeath" value="111"/>
+	<property name="HeadDismemberBaseChance" value="10"/>
+	<property name="HeadDismemberThreshold" value="0.02"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="TintMaterial2" value="0,127,0"/>		
+</entity_class>
+
+<entity_class name="theringzombie" extends="zombieTemplateMale">
+	<property name="Mesh" value="Zombies/zombieStandardScreamerRagdoll"/>
+	<property name="AvatarController" value="AvatarZombie01Controller"/>
+	<property name="PhysicsBody" value="zombieStandard"/>
+	<property name="HandItem" value="ringhand"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="ModelType" value="Standard"/>
+	<property name="CanClimbVertical" value="true"/>
+	<property name="WalkType" value="8"/>
+	<property name="LootListOnDeath" value="110"/>
+	<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+	<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+	<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
+	<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
+	<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+	<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
+	<property name="MaxHealth" value="50"/>
+	<property name="WanderSpeed" value="0.08"/>
+	<property name="ApproachSpeed" value="2.0"/>
+	<property name="NightWanderSpeed" value="0.08"/>
+	<property name="NightApproachSpeed" value="2.0"/>
+	<property name="PanicSpeed" value="1.2"/>
+	<property name="ExperienceGain" value="494"/>
+	<property name="HeadDismemberThreshold" value="20"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+</entity_class>
+<entity_class name="hordespidertemplatelvl2" extends="hordespidertemplate">
+	<property name="HandItem" value="hordespiderhandlvl2"/>	
+	<property name="TintMaterial2" value="255,153,0"/>	
+</entity_class>
+
+<entity_class name="hordespidertemplatelvl3" extends="hordespidertemplate">
+	<property name="HandItem" value="hordespiderhandlvl3"/>	
+	<property name="TintMaterial2" value="255,255,0"/>		
+</entity_class>
+
+<entity_class name="hordespidertemplatelvl4" extends="hordespidertemplate">
+	<property name="HandItem" value="hordespiderhandlvl4"/>	
+	<property name="TintMaterial2" value="255,255,255"/>		
+</entity_class>
+
+<entity_class name="zombieBoespiderlvl1" extends="hordespidertemplate">	
+	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieBoespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieBoespiderlvl3" extends="hordespidertemplatelvl3">	
+	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieBoespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardBoeRagdoll"/>
+</entity_class>	
+	
+<entity_class name="zombieFootballPlayerspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardFootballRagdoll"/>
+</entity_class>	
+	
+<entity_class name="zombieFootballPlayerspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardFootballRagdoll"/>
+</entity_class>	
+		
+<entity_class name="zombieFootballPlayerspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardFootballRagdoll"/>
+</entity_class>	
+		
+<entity_class name="zombieFootballPlayerspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardFootballRagdoll"/>
+</entity_class>		
+	
+<entity_class name="zombieFemaleFatspiderlvl1" extends="hordespidertemplate">
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
+	<property name="Mesh" value="Zombies/zombieStandardFatLadyZRagdoll"/>
+</entity_class>	
+	
+<entity_class name="zombieFemaleFatspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
+	<property name="Mesh" value="Zombies/zombieStandardFatLadyZRagdoll"/>
+</entity_class>	
+	
+<entity_class name="zombieFemaleFatspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
+	<property name="Mesh" value="Zombies/zombieStandardFatLadyZRagdoll"/>
+</entity_class>	
+	
+<entity_class name="zombieFemaleFatspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female2/zombiefemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female2/zombiefemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female2/zombiefemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female2/zombiefemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female2/zombiefemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female2/zombiefemale2sense"/>
+	<property name="Mesh" value="Zombies/zombieStandardFatLadyZRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieJoespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardJoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieJoespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardJoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieJoespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardJoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieJoespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardJoeRagdoll"/>
+</entity_class>	
+
+
+<entity_class name="zombieMoespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieMoespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>	
+</entity_class>	
+
+<entity_class name="zombieMoespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieMoespiderlvl4" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardMoeRagdoll"/>
+</entity_class>	
+
+<entity_class name="zombieArlenespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardArleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="TintMaterial2" value="0,127,0"/>	
+</entity_class>	
+
+<entity_class name="zombieArlenespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardArleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>	
+
+<entity_class name="zombieArlenespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardArleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieArlenespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardArleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>	
+
+<entity_class name="zombieMarlenespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardMarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieMarlenespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardMarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieMarlenespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardMarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieMarlenespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardMarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieDarlenespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardDarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>	
+
+<entity_class name="zombieDarlenespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardDarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>	
+
+<entity_class name="zombieDarlenespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardDarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieDarlenespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardDarleneRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>	
+
+<entity_class name="zombieYospiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardYoRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieYospiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardYoRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieYospiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardYoRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieYospiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardYoRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieStevespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieStevespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieStevespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieStevespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardSteveRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBusinessManspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSuitRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieBusinessManspiderlvl2" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSuitRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBusinessManspiderlvl3" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSuitRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBusinessManspiderlvl4" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSuitRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSnowspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSnowRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
+	<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
+	<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
+	<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
+	<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
+	<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>	
+</entity_class>
+
+<entity_class name="zombieSnowspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardSnowRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
+	<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
+	<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
+	<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
+	<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
+	<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
+</entity_class>
+
+<entity_class name="zombieSnowspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardSnowRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
+	<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
+	<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
+	<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
+	<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
+	<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>
+</entity_class>
+
+<entity_class name="zombieSnowspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardSnowRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Snow_Zombie_Male/zombiemalesnowroam"/>
+	<property name="SoundAlert" value="Enemies/Snow_Zombie_Male/zombiemalesnowalert"/>
+	<property name="SoundAttack" value="Enemies/Snow_Zombie_Male/zombiemalesnowattack"/>
+	<property name="SoundHurt" value="Enemies/Snow_Zombie_Male/zombiemalesnowpain"/>
+	<property name="SoundDeath" value="Enemies/Snow_Zombie_Male/zombiemalesnowdeath"/>
+	<property name="SoundSense" value="Enemies/Snow_Zombie_Male/zombiemalesnowsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Snow_Zombie_Male/zombiesnowfootstep"/>	
+</entity_class>
+
+<entity_class name="zombieNursespiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieNursespiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieNursespiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieNursespiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardNurseRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieFatHawaiianspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardHawaiianRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieFatHawaiianspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardHawaiianRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFatHawaiianspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardHawaiianRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFatHawaiianspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardHawaiianRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFatCopspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieFatCopspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFatCopspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieFatCopspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardCopRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieMaleHazmatspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieMaleHazmatspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieMaleHazmatspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieMaleHazmatspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardHazmatRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieUtilityWorkerspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieUtilityWorkerspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieUtilityWorkerspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieUtilityWorkerspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardWorkerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieSoldierspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardSoldierRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSoldierspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardSoldierRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSoldierspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardSoldierRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSoldierspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardSoldierRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSkateboarderspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSkateboarderspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSkateboarderspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieSkateboarderspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardHoodieRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieCheerleaderspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>		
+</entity_class>
+
+<entity_class name="zombieCheerleaderspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>
+
+<entity_class name="zombieCheerleaderspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>	
+</entity_class>
+
+<entity_class name="zombieCheerleaderspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardCheerleaderRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>		
+</entity_class>
+
+<entity_class name="zombieOldTimerspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardOldTimerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieOldTimerspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardOldTimerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieOldTimerspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardOldTimerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieOldTimerspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardOldTimerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBikerspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBikerspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieBikerspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieBikerspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardBikerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFarmerspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieFarmerspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>
+</entity_class>
+
+<entity_class name="zombieFarmerspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieFarmerspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardFarmerRagdoll"/>	
+</entity_class>
+
+<entity_class name="zombieStripperspiderlvl1" extends="hordespidertemplate">
+	<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieStripperspiderlvl2" extends="hordespidertemplatelvl2">
+	<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieStripperspiderlvl3" extends="hordespidertemplatelvl3">
+	<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<entity_class name="zombieStripperspiderlvl4" extends="hordespidertemplatelvl4">
+	<property name="Mesh" value="Zombies/zombieStandardStripperRagdoll"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+</entity_class>
+
+<!-- party girls -->
+<entity_class name="partygirlspiderlvl1" extends="zombieTemplateMale">
+	<property name="Archetype" value="zombieStripperDrunk"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="HandItem" value="handZombieDrunklevel1"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="8"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="250"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="LootListOnDeath" value="99"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="2"/>
+	<property name="Explosion.RadiusEntities" value="2"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="1"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="2"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="2"/>
+	<property name="HeadExplosionDamageMultiplier" value="6"/>
+	<property name="ChestExplosionDamageMultiplier" value="2"/>
+	<property name="ApproachSpeed" value="2.0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="TintMaterial2" value="0,127,0"/>	
+</entity_class>
+
+<entity_class name="partygirllvl1" extends="zombieTemplateMale">
+	<property name="Archetype" value="zombieStripperDrunk"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="HandItem" value="handZombieDrunk"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="1"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="250"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<!-- fuck this shit	<property name="AttackTimeoutDay" value="1.5"/> 
+	<property name="AttackTimeoutNight" value="1.1"/> -->
+	<property name="LootListOnDeath" value="99"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="2"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="5"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="2"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="2"/>
+	<property name="HeadExplosionDamageMultiplier" value="6"/>
+	<property name="ChestExplosionDamageMultiplier" value="2"/>
+	<property name="ApproachSpeed" value="2.0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+</entity_class>
+
+
+<!-- whitewalkers -->
+
+<entity_class name="whitewalkerfemalelvl1" extends="zombieTemplateMale">
+	<property name="Archetype" value="whitewalkerfemale"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="HandItem" value="fastzombiehandlvl1"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="7"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="100"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="100"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="2"/>
+	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="LootListOnDeath" value="111"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="2"/>
+	<property name="Explosion.RadiusEntities" value="6"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="15"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="2"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="2"/>
+	<property name="HeadExplosionDamageMultiplier" value="6"/>
+	<property name="ChestExplosionDamageMultiplier" value="2"/>
+	<property name="ApproachSpeed" value="4.0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="TintMaterial2" value="0,127,0"/>	
+</entity_class>
+
+<entity_class name="whitewalkerfemalelvl2" extends="whitewalkerfemalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl2"/>
+</entity_class>
+
+<entity_class name="whitewalkerfemalelvl3" extends="whitewalkerfemalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl3"/>
+</entity_class>
+
+<entity_class name="whitewalkerfemalelvl4" extends="whitewalkerfemalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl4"/>
+</entity_class>
+
+<entity_class name="whitewalkermalelvl1" extends="whitewalkerfemalelvl1">
+	<property name="Archetype" value="whitewalkermale"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Male2/zombiemale2roam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Male2/zombiemale2alert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Male2/zombiemale2attack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Male2/zombiemale2pain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Male2/zombiemale2death"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Male2/zombiemale2sense"/>
+</entity_class>
+
+<entity_class name="whitewalkermalelvl2" extends="whitewalkermalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl2"/>
+</entity_class>
+
+<entity_class name="whitewalkermalelvl3" extends="whitewalkermalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl3"/>
+</entity_class>
+
+<entity_class name="whitewalkermalelvl4" extends="whitewalkermalelvl1">
+	<property name="HandItem" value="fastzombiehandlvl4"/>
+</entity_class>
+
+
+<!-- Leprochauns -->
+
+<entity_class name="leprechaunlvl1" extends="othercustomzombietemplate">
+	<property name="Archetype" value="leprochaunbomber"/>
+	<property name="MaxHealth" value="50"/>
+	<property name="ExperienceGain" value="150"/>
+	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
+	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
+	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
+	<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
+	<property name="SoundAttack" value="Animals/Vulture/vultureattack"/>
+	<property name="SoundSense" value="Animals/Vulture/vulturesense"/>
+	<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>	
+	<property name="AITask-12" value="BreakDoor" />
+    <property name="AITask-13" value="BreakBlock" />
+	<property name="HandItem" value="handleplvl1"/>
+	<property name="LootListOnDeath" value="109"/>
+	<property name="WalkType" value="2"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+</entity_class>
+
+<entity_class name="leprechaunlvl2" extends="leprechaunlvl1">
+	<property name="MaxHealth" value="150"/>
+	<property name="HandItem" value="handleplvl2"/>
+</entity_class>
+
+<entity_class name="leprechaunlvl3" extends="leprechaunlvl1">
+	<property name="MaxHealth" value="200"/>
+	<property name="HandItem" value="handleplvl3"/>
+</entity_class>
+
+<entity_class name="leprechaunlvl4" extends="leprechaunlvl1">
+	<property name="MaxHealth" value="250"/>
+	<property name="HandItem" value="handleplvl4"/>
+</entity_class>
+
+<!-- Bros -->
+
+
+<entity_class name="brolevel1" extends="othercustomzombietemplate">
+	<property name="Archetype" value="bro"/>
+	<property name="MaxHealth" value="175"/>
+	<property name="ExperienceGain" value="150"/>
+	<property name="SoundRandom" value="malehateroam"/>
+	<property name="SoundAlert" value="malehatealert"/>
+	<property name="SoundSense" value="malehatesense"/>
+	<property name="SoundHurt" value="malehatepain"/>
+	<property name="SoundDeath" value="malehatedeath"/>
+	<property name="SoundAttack" value="malehateattack"/>
+	<property name="HandItem" value="handbrolvl1"/>
+	<property name="LootListOnDeath" value="108"/>
+	<property name="WalkType" value="5"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="100"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+</entity_class>
+
+<entity_class name="brospiderlevel1" extends="zombieTemplateMale">
+	<property name="Archetype" value="bro"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="malehateroam"/>
+	<property name="SoundAlert" value="malehatealert"/>
+	<property name="SoundSense" value="malehatesense"/>
+	<property name="SoundHurt" value="malehatepain"/>
+	<property name="SoundDeath" value="malehatedeath"/>
+	<property name="SoundAttack" value="malehateattack"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="HandItem" value="handbrolvl1"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="8"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="250"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<property name="AttackTimeoutDay" value="1.5"/> <!-- in s -->
+	<property name="AttackTimeoutNight" value="1.1"/>
+	<property name="LootListOnDeath" value="99"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityAnimalStag"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="2"/>
+	<property name="Explosion.RadiusEntities" value="2"/>
+	<property name="Explosion.BlockDamage" value="5"/>
+	<property name="Explosion.EntityDamage" value="1"/>
+	<property name="Explosion.DamageBonus.earth" value="0"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="2"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="2"/>
+	<property name="HeadExplosionDamageMultiplier" value="6"/>
+	<property name="ChestExplosionDamageMultiplier" value="2"/>
+	<property name="ApproachSpeed" value="2.0"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+	<property name="TintMaterial2" value="0,127,0"/>	
+</entity_class>
+
+<!--  Burning zombies -->
+
+<entity_class name="zombieBurntlvl1" extends="zombieTemplateMale">
+	<property name="Mesh" value="Zombies/ZombieStandardBurntRagdoll"/>
+	<property name="WalkType" value="7"/>
+	<property name="SoundRandom" value="Enemies/Burnt_Zombie/zombieburntroam"/>
+	<property name="SoundAlert" value="Enemies/Burnt_Zombie/zombieburntalert"/>
+	<property name="SoundAttack" value="Enemies/Burnt_Zombie/zombieburntattack"/>
+	<property name="SoundHurt" value="Enemies/Burnt_Zombie/zombieburntpain"/>
+	<property name="SoundDeath" value="Enemies/Burnt_Zombie/zombieburntdeath"/>
+	<property name="SoundSense" value="Enemies/Burnt_Zombie/zombieburntsense"/>
+	<property name="SoundFootstepModifier" value="Enemies/Burnt_Zombie/zombieburntfootstep"/>
+	<property name="HandItem" value="handZombieBurninglvl1"/>
+	<property name="MaxHealth" value="80"/>
+	<property name="ExperienceGain" value="184"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
+</entity_class>
+
+<entity_class name="zombieBurntlvl2" extends="zombieBurntlvl1">
+	<property name="HandItem" value="handZombieBurninglvl2"/>
+	<property name="MaxHealth" value="100"/>
+	<property name="ExperienceGain" value="200"/>
+</entity_class>
+
+<entity_class name="zombieBurntlvl3" extends="zombieBurntlvl1">
+	<property name="HandItem" value="handZombieBurninglvl3"/>
+	<property name="MaxHealth" value="120"/>
+	<property name="ExperienceGain" value="220"/>
+</entity_class>
+
+<entity_class name="zombieBurntlvl4" extends="zombieBurntlvl1">
+	<property name="HandItem" value="handZombieBurninglvl4"/>
+	<property name="MaxHealth" value="140"/>
+	<property name="ExperienceGain" value="240"/>
+</entity_class>
+
+<!-- burning spiders -->
+
+<entity_class name="zombieBurntspiderlvl1" extends="zombieBurntlvl1">
+	<property name="WalkType" value="8"/>
+	<property name="HandItem" value="handZombieBurninglvl2"/>
+	<property name="MaxHealth" value="100"/>
+	<property name="ExperienceGain" value="200"/>
+</entity_class>
+
+<entity_class name="zombieBurntspiderlvl2" extends="zombieBurntspiderlvl1">
+	<property name="HandItem" value="handZombieBurninglvl2"/>
+	<property name="MaxHealth" value="100"/>
+	<property name="ExperienceGain" value="200"/>
+</entity_class>
+
+<entity_class name="zombieBurntspiderlvl3" extends="zombieBurntspiderlvl1">
+	<property name="HandItem" value="handZombieBurninglvl3"/>
+	<property name="MaxHealth" value="120"/>
+	<property name="ExperienceGain" value="220"/>
+</entity_class>
+
+<entity_class name="zombieBurntspiderlvl4" extends="zombieBurntspiderlvl1">
+	<property name="HandItem" value="handZombieBurninglvl4"/>
+	<property name="MaxHealth" value="140"/>
+	<property name="ExperienceGain" value="240"/>
+</entity_class>
+
+<!-- angry ditz -->
+
+<entity_class name="angryzombieDitzlvl1" extends="othercustomzombietemplate">
+	<property name="Archetype" value="ditz"/>
+	<property name="MaxHealth" value="150"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>	
+	<property name="WalkType" value="5"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl1"/>	
+	<property name="LootListOnDeath" value="17"/>
+	<property name="ApproachSpeed" value="20.0"/>	
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+</entity_class>		
+
+<entity_class name="angryzombieDitzlvl2" extends="angryzombieDitzlvl1">
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="250"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl2"/>	
+</entity_class>	
+
+<entity_class name="angryzombieDitzlvl3" extends="angryzombieDitzlvl1">
+	<property name="MaxHealth" value="250"/>
+	<property name="ExperienceGain" value="250"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl3"/>	
+</entity_class>	
+
+<entity_class name="angryzombieDitzlvl4" extends="angryzombieDitzlvl1">
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="250"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl4"/>	
+</entity_class>	
+
+<!--ditz spider -->
+
+
+<entity_class name="angryzombieDitzspiderlvl1" extends="othercustomzombietemplate">
+	<property name="Archetype" value="ditz"/>
+	<property name="MaxHealth" value="150"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>	
+	<property name="WalkType" value="8"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl1"/>	
+	<property name="LootListOnDeath" value="17"/>
+	<property name="ApproachSpeed" value="20.0"/>	
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+</entity_class>
+
+<entity_class name="angryzombieDitzspiderlvl2" extends="angryzombieDitzspiderlvl1">
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="250"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl2"/>	
+</entity_class>	
+
+<entity_class name="angryzombieDitzspiderlvl3" extends="angryzombieDitzspiderlvl1">
+	<property name="MaxHealth" value="250"/>
+	<property name="ExperienceGain" value="275"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl3"/>	
+</entity_class>	
+
+<entity_class name="angryzombieDitzspiderlvl4" extends="angryzombieDitzspiderlvl1">
+	<property name="MaxHealth" value="300"/>
+	<property name="ExperienceGain" value="300"/>
+	<property name="HandItem" value="handZombieAngryDitzlvl4"/>	
+</entity_class>
+
+
+<!-- undead archers -->
+
+<entity_class name="UndeadArcherlvl1" extends="othercustomzombietemplate">
+	<property name="Archetype" value="DeadArcher"/>
+	<property name="MaxHealth" value="150"/>
+	<property name="ExperienceGain" value="200"/>
+	<property name="SoundRandom" value="Animals/Vulture/vultureroam"/>
+	<property name="SoundAlert" value="Animals/Vulture/vulturealert"/>
+	<property name="SoundHurt" value="Animals/Vulture/vulturepain"/>
+	<property name="SoundDeath" value="Animals/Vulture/vulturedeath"/>
+	<property name="SoundAttack" value="Animals/Vulture/vultureattack"/>
+	<property name="SoundSense" value="Animals/Vulture/vulturesense"/>
+	<property name="SoundGiveUp" value="Animals/Vulture/vulturegiveup"/>
+	<property name="HandItem" value="handarcherlvl1"/>
+	<property name="LootListOnDeath" value="109"/>
+	<property name="WalkType" value="2"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="HeadDismemberBaseChance" value="0" />
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
+</entity_class>
+
+
+<entity_class name="UndeadArcherlvl2" extends="UndeadArcherlvl1">
+	<property name="MaxHealth" value="200"/>
+	<property name="ExperienceGain" value="250"/>
+	<property name="HandItem" value="handarcherlvl2"/>
+</entity_class>
+
+<entity_class name="UndeadArcherlvl3" extends="UndeadArcherlvl1">
+	<property name="MaxHealth" value="250"/>
+	<property name="ExperienceGain" value="275"/>
+	<property name="HandItem" value="handarcherlvl3"/>
+</entity_class>
+
+<entity_class name="UndeadArcherlvl4" extends="UndeadArcherlvl1">
+	<property name="MaxHealth" value="300"/>
+	<property name="ExperienceGain" value="300"/>
+	<property name="HandItem" value="handarcherlvl4"/>
+</entity_class>
+
+
+<!-- bomba -->
+
+<entity_class name="bombalvl1" extends="zombieTemplateMale">
+	<property name="Archetype" value="bomba"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="Enemies/Base_Zombie_Female/zombiefemaleroam"/>
+	<property name="SoundAlert" value="Enemies/Base_Zombie_Female/zombiefemalealert"/>
+	<property name="SoundAttack" value="Enemies/Base_Zombie_Female/zombiefemaleattack"/>
+	<property name="SoundHurt" value="Enemies/Base_Zombie_Female/zombiefemalepain"/>
+	<property name="SoundDeath" value="Enemies/Base_Zombie_Female/zombiefemaledeath"/>
+	<property name="SoundSense" value="Enemies/Base_Zombie_Female/zombiefemalesense"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="HandItem" value="bombahandlvl1"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="1"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="1750"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="500"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="0.5"/>
+	<!--	<property name="AttackTimeoutDay" value="1.5"/> 
+	<property name="AttackTimeoutNight" value="1.1"/> -->
+	<property name="LootListOnDeath" value="113"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityPlayer"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="5"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="1000"/>
+	<property name="Explosion.EntityDamage" value="15"/>
+	<property name="Explosion.DamageBonus.earth" value="10"/>
+	<property name="HeadDismemberBaseChance" value="0" />
+	<property name="HeadDismemberBonusChance" value="0"/>
+	<property name="HeadDismemberThreshold" value="0"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="0"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="0"/>
+	<property name="HeadExplosionDamageMultiplier" value="0"/>
+	<property name="ChestExplosionDamageMultiplier" value="0"/>
+	<property name="ApproachSpeed" value="2.0"/>
+</entity_class>
+
+<entity_class name="bombalvl2" extends="bombalvl1">
+	<property name="MaxHealth" value="1750"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="7"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="1500"/>
+	<property name="Explosion.EntityDamage" value="15"/>
+	<property name="Explosion.DamageBonus.earth" value="10"/>
+</entity_class>
+
+<entity_class name="bombalvl3" extends="bombalvl1">
+	<property name="MaxHealth" value="1750"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="10"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="2000"/>
+	<property name="Explosion.EntityDamage" value="15"/>
+	<property name="Explosion.DamageBonus.earth" value="10"/>
+</entity_class>
+
+<entity_class name="bombalvl4" extends="bombalvl1">
+	<property name="MaxHealth" value="1750"/>
+	<property name="Explosion.ParticleIndex" value="8"/>
+	<property name="Explosion.RadiusBlocks" value="15"/>
+	<property name="Explosion.RadiusEntities" value="5"/>
+	<property name="Explosion.BlockDamage" value="2500"/>
+	<property name="Explosion.EntityDamage" value="15"/>
+	<property name="Explosion.DamageBonus.earth" value="10"/>
+</entity_class>
+
+
+<!--The murphy-->
+
+
+<entity_class name="themurphy" extends="zombieTemplateMale">
+	<property name="Archetype" value="themurphy"/>
+	<property name="EntityType" value="Zombie"/>
+	<property name="Prefab" value="NPC"/>
+	<property name="Class" value="EntityZombie"/>
+	<property name="Parent" value="Enemies"/>
+	<property name="IsEnemyEntity" value="true"/>
+	<property name="SoundRandom" value="malehateroam"/>
+	<property name="SoundAlert" value="malehatealert"/>
+	<property name="SoundSense" value="malehatesense"/>
+	<property name="SoundHurt" value="malehatepain"/>
+	<property name="SoundDeath" value="malehatedeath"/>
+	<property name="SoundAttack" value="malehateattack"/>
+	<property name="Class" value="EntityZombieCop"/>
+	<property name="HandItem" value="themurphyhand"/>
+	<property name="HasRagdoll" value="false"/>
+	<property name="WalkType" value="1"/>
+	<property name="RightHandJointName" value="Jaw"/>
+	<property name="AvatarController" value="AvatarZombieUMAController"/>
+	<property name="ModelType" value="ZombieUMA"/>
+	<property name="CanClimbLadders" value="true"/>
+	<property name="PhysicsBody" value="zombieUMA"/>
+	<property name="RootMotion" value="true"/>
+	<property name="HasDeathAnim" value="true"/>
+	<property name="MaxHealth" value="250"/>
+	<property name="CorpseBlock" value="Mercied"/>
+	<property name="CorpseBlockChance" value="1"/>
+	<property name="ExperienceGain" value="50"/>
+	<property name="Weight" value="70"/>
+	<property name="PushFactor" value="20"/>
+	<property name="TimeStayAfterDeath" value="1"/>
+	<!-- fuck this shit	<property name="AttackTimeoutDay" value="1.5"/> 
+	<property name="AttackTimeoutNight" value="1.1"/> -->
+	<property name="LootListOnDeath" value="114"/>
+	<property name="AITask-1" value="BreakDoor"/>
+	<property name="AITask-2" value="BreakBlock"/>
+	<property name="AITask-3" value="RangedAttackTarget" param1="1" param2="5"/>
+	<property name="AITask-4" value="ApproachAndAttackTarget" param1="EntityZombie"/>
+	<property name="AITask-5" value="ApproachAndAttackTarget" param1="EntityZombie"/>
+	<property name="AITask-6" value="ApproachSpot"/>
+	<property name="AITask-7" value="Wander"/>
+	<property name="AITarget-1" value="SetAsTargetIfHurt" param1="EntityZombie"/>
+	<property name="AITarget-2" value="SetAsTargetIfHurt" param1="EntityZombie"/>
+	<property name="AITarget-3" value="BlockingTargetTask"/>
+	<property name="AITarget-4" value="SetNearestCorpseAsTarget" param1="EntityZombie"/>
+	<property name="AITarget-5" value="SetNearestEntityAsTarget" param1="EntityZombie"/>
+	<property name="AITarget-6" value="SetNearestEntityAsTarget" param1="EntityZombie"/>
+	<property name="SoundFootstepModifier" value="Enemies/Feral_Zombie/zombieferalfootstep"/>
+	<property name="HeadDismemberBaseChance" value="50" />
+	<property name="HeadDismemberBonusChance" value="3.0"/>
+	<property name="HeadDismemberThreshold" value="0.23"/>
+	<property name="LowerLegDismemberThreshold" value="0"/>
+	<property name="UpperLegDismemberThreshold" value="0"/>
+	<property name="LowerArmDismemberThreshold" value="0"/>
+	<property name="UpperArmDismemberThreshold" value="0"/>
+	<property name="LegCrawlerThreshold" value="0"/>
+	<property name="LegCrippleThreshold" value="0"/>
+	<property name="KnockdownProneDamageThreshold" value="0"/>
+	<property name="KnockdownKneelDamageThreshold" value="0"/>
+	<property name="LegsExplosionDamageMultiplier" value="2"/> 
+	<property name="ArmsExplosionDamageMultiplier" value="2"/>
+	<property name="HeadExplosionDamageMultiplier" value="6"/>
+	<property name="ChestExplosionDamageMultiplier" value="2"/>
+	<property name="ApproachSpeed" value="0.45"/>
+	<property name="NightApproachSpeed" value="1.35"/>
+	<drop event="Harvest" name="rottingFlesh" tool_category="Butcher" count="0"/>
 </entity_class>
 
 
 
+<!--Scared villagers-->
+
+<entity_class name="enderHank" extends="themurphy">
+	<property name="Archetype" value="Hank"/>
+	<property name="LootListOnDeath" value="115"/>
+</entity_class>
+
+<entity_class name="enderEmma" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Emma"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>
+</entity_class>
+
+<entity_class name="enderMiguel" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Miguel"/>
+</entity_class>
+
+<entity_class name="enderGabrielle" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Gabrielle"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>
+</entity_class>
+
+<entity_class name="enderAiden" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Aiden"/>
+</entity_class>
+
+<entity_class name="enderGrace" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Grace"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>
+</entity_class>
+
+<entity_class name="enderJeff" extends="themurphy">
+	<property name="LootListOnDeath" value="115"/>
+	<property name="Archetype" value="Jeff"/>
+	<property name="SoundRandom" value="Player_Female/player2painlg"/>
+	<property name="SoundAlert" value="Player_Female/player2painlg"/>
+	<property name="SoundAttack" value="Player_Female/player2painlg"/>
+	<property name="SoundHurt" value="Player_Female/player2painlg"/>
+	<property name="SoundDeath" value="Player_Female/player2painlg"/>
+	<property name="SoundSense" value="Player_Female/player2painlg"/>
+</entity_class>
+
 </entity_classes>
+
 <!-- Radiated, harder to decap
 	<property name="HeadDismemberBaseChance" value="-.15"/>
 	<property name="HeadDismemberBonusChance" value="0.08"/>

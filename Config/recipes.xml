@@ -1626,8 +1626,12 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapIron" count="15"/>
 </recipe>
 
-
-
+<!--
+<recipe name="minibikeChassis" count="1" craft_area="forge" craft_tool="anvil" material_based="true">
+	<ingredient name="unit_iron" count="200"/>
+	<ingredient name="unit_clay" count="20"/>
+</recipe>
+-->
 
 
 
@@ -1642,7 +1646,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="mechanicalParts" count="1"/>
 	<ingredient name="shortMetalPipe" count="6"/>
 </recipe>
-
+<!--
 <recipe name="minibikeHandlebars" count="1" craft_area="workbench">
 	<ingredient name="partsHandlebars" count="1"/>
 	<ingredient name="ductTape" count="2"/>
@@ -1657,7 +1661,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="cottonPlant" count="3"/>
 	<ingredient name="shortMetalPipe" count="4"/>
 </recipe>
-
+-->
 <recipe name="plantedMushroom1" count="2" craft_time="2">
 	<ingredient name="mushrooms" count="2"/>
 	<ingredient name="dirtFragment" count="1"/>
@@ -1876,6 +1880,14 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="scrapPlastics" count="4"/>
 </recipe>
 
+<recipe name="swathelmetwithlight" count="1" craft_area="workbench">
+	<ingredient name="swatHelmet" count="1"/>
+	<ingredient name="flashlight02" count="1"/>
+	<ingredient name="electricParts" count="8"/>
+	<ingredient name="ductTape" count="5"/>
+	<ingredient name="scrapPlastics" count="4"/>
+</recipe>
+
 <recipe name="scrapHelmet" count="1">
 	<ingredient name="scrapIron" count="100"/>
 	<ingredient name="leather" count="2"/>
@@ -2018,7 +2030,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="sod" count="1">
 	<ingredient name="yuccaFibers" count="1"/>
 	<ingredient name="dirtFragment" count="12"/>
-	<ingredient name="forgedSteel" count="1"/>	
+	<!--<ingredient name="forgedSteel" count="1"/>	-->
 </recipe>
 
 <recipe name="splint" count="1">
@@ -2063,7 +2075,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="storeShelving01" count="1" craft_area="workbench">
-	<ingredient name="forgedIron" count="3"/>
+	<ingredient name="forgedIron" count="50"/>
 </recipe>
 
 <recipe name="tallow" count="1" craft_area="campfire" craft_tool="cookingPot">
@@ -2494,6 +2506,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="mechanicalParts" count="3"/>
 </recipe>
 
+<recipe name="mayorwireTool" count="1" craft_area="workbench">
+	<ingredient name="forgedSteel" count="9"/>
+	<ingredient name="mechanicalParts" count="3"/>
+</recipe>
 
 
 <recipe name="generatorbank" count="1" craft_area="workbench">
@@ -3083,11 +3099,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="forgedIron" count="1"/>
 </recipe>
 
-<recipe name="signRoadSpeed35" count="1" craft_area="workbench">
-	<ingredient name="shortMetalPipe" count="1"/>
-	<ingredient name="forgedIron" count="1"/>
-</recipe>
-
 <recipe name="signRoadSpeed45" count="1" craft_area="workbench">
 	<ingredient name="shortMetalPipe" count="1"/>
 	<ingredient name="forgedIron" count="1"/>
@@ -3369,22 +3380,22 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 
 <recipe name="emberPile1" count="1">
 	<ingredient name="wood" count="10"/>
-	<ingredient name="coal" count="5"/>
+	<ingredient name="embers" count="5"/>
 </recipe>
 
 <recipe name="emberPile2" count="1">
 	<ingredient name="wood" count="10"/>
-	<ingredient name="coal" count="5"/>
+	<ingredient name="embers" count="5"/>
 </recipe>
 
 <recipe name="emberPile3" count="1">
 	<ingredient name="wood" count="10"/>
-	<ingredient name="coal" count="5"/>
+	<ingredient name="embers" count="5"/>
 </recipe>
 
 <recipe name="emberPile4" count="1">
 	<ingredient name="wood" count="10"/>
-	<ingredient name="coal" count="5"/>
+	<ingredient name="embers" count="5"/>
 </recipe>
 
 <recipe name="commercialDoor1_v1" count="1" craft_area="workbench">
@@ -3751,15 +3762,6 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="yuccaFibers" count="125"/>
 </recipe>
 
-
-<recipe name="scrapBrass" count="4" craft_area="chemistryStation">
-	<ingredient name="shamSandwich" count="1"/>
-</recipe>
-
-<recipe name="machete" count="1" craft_area="workbench">
-	<ingredient name="shamSandwich" count="500"/>
-</recipe>
-
 <recipe name="treeAzalea" count="1">
 	<ingredient name="wood" count="3"/>
 </recipe>
@@ -3767,6 +3769,11 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 <recipe name="oil" count="1" craft_area="chemistryStation">
 	<ingredient name="oilShale" count="10"/>
 	<ingredient name="emptyJar" count="1"/>
+</recipe>
+
+<recipe name="oil" count="1" craft_area="chemistryStation">
+	<ingredient name="oilShale" count="10"/>
+	<ingredient name="scrapPlastics" count="3"/>
 </recipe>
 
 <recipe name="paper" count="10" craft_area="chemistryStation">
@@ -3780,7 +3787,7 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="treeJuniper6m" count="1" craft_area="workbench">
-	<ingredient name="wood" count="1050"/>
+	<ingredient name="wood" count="2000"/>
 	<ingredient name="yuccaFibers" count="20"/>
 </recipe>
 
@@ -3821,7 +3828,10 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 </recipe>
 
 <recipe name="cntCar03SedanDamage0" count="1" craft_area="workbench">
-	<ingredient name="car_parts" count="200"/>
+	<ingredient name="smallEngine" count="1"/>
+	<ingredient name="radiator" count="1"/>
+	<ingredient name="tire" count="4" />
+	<ingredient name="forgedSteel" count="100" />
 </recipe>
 
 <!-- custom clothing starts here -->
@@ -4504,15 +4514,250 @@ Unfortunately auto-calc only seems to work on the first (top) ingredient in the 
 	<ingredient name="wood" count="100"/>	
 </recipe>
 
+<!--
 <recipe name="regularsod" count="1">
 	<ingredient name="yuccaFibers" count="1"/>
 	<ingredient name="dirtFragment" count="12"/>
 </recipe>
+-->
 
 <recipe name="animalGoredecoration" count="1" craft_area="chemistryStation">
 	<ingredient name="femur" count="5"/>	
 	<ingredient name="rottingFlesh" count="15"/>	
 </recipe>
+
+<recipe name="towngenerator" count="1" craft_area="Workbench">
+	<ingredient name="forgedSteel" count="500"/>	
+	<ingredient name="mechanicalParts" count="1500"/>	
+	<ingredient name="goldNugget" count="50"/>
+	<ingredient name="supahEngine" count="5"/>
+</recipe>
+	
+<recipe name="hiddentowerrelay" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="15"/>
+	<ingredient name="electronicParts" count="2"/>
+</recipe>
+	
+<recipe name="carBattery" count="1" craft_area="workbench">
+	<ingredient name="scrapLead" count="250"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="scrapPlastics" count="50"/>
+	<ingredient name="bottledWater" count="5"/>
+</recipe>
+	
+<recipe name="electricchainLink" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkFenceBottomPole" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkFenceTop" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkFenceTopPole" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkPole" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkCornerTop" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkCornerBottom" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="electricchainLinkFenceTopPole2" count="5" craft_area="workbench">
+	<ingredient name="carBattery" count="1"/>
+	<ingredient name="electronicParts" count="2"/>
+	<ingredient name="chainLink" count="5"/>
+	<ingredient name="forgedSteel" count="50"/>
+</recipe>
+
+<recipe name="securityGatePlate" count="1" craft_area="workbench">
+	<ingredient name="shortMetalPipe" count="10"/>
+	<ingredient name="forgedSteel" count="2"/>	
+</recipe>
+
+<recipe name="securityGateCTRPlate" count="1" craft_area="workbench">
+	<ingredient name="shortMetalPipe" count="10"/>
+	<ingredient name="forgedSteel" count="2"/>	
+</recipe>
+
+<recipe name="signShopOpen" count="1" craft_area="workbench">
+	<ingredient name="electricParts" count="25"/>
+	<ingredient name="forgedSteel" count="2"/>	
+</recipe>	
+
+<recipe name="embers" count="1" craft_area="campfire">
+	<ingredient name="wood" count="1" />
+</recipe>
+
+<recipe name="brickDestroyedBlock01" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_clay" count="60"/>
+</recipe>
+
+<recipe name="brickDestroyedBlock02" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_clay" count="60"/>
+</recipe>
+
+<recipe name="brickDestroyedBlock03" count="1" craft_area="forge" material_based="true">
+	<ingredient name="unit_stone" count="10"/>
+	<ingredient name="unit_clay" count="60"/>
+</recipe>
+
+<recipe name="concreteDestroyed01" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed02" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed03" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed04" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed05" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed06" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="concreteDestroyed07" count="1" >
+	<ingredient name="concreteMix" count="10"/>
+	<ingredient name="rebarFrameBlock" count="1"/>
+</recipe>
+
+<recipe name="scrapIronCross" count="1" craft_area="workbench" >
+	<ingredient name="forgedIron" count="4"/>
+</recipe>
+
+<recipe name="grassbomb" count="1" >
+	<ingredient name="yuccaFibers" count="10"/>
+	<ingredient name="gasCan" count="1"/>
+</recipe>
+
+<recipe name="porchLight04Brass" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+<recipe name="porchLight04" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+
+<recipe name="ceilingLight02Brass" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+
+<recipe name="ceilingLight04" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+<recipe name="ceilingLight05" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+<recipe name="ceilingLight05Brass" count="1" craft_area="workbench">
+	<ingredient name="forgedIron" count="2"/>
+	<ingredient name="electricParts" count="4"/>
+</recipe>
+
+<recipe name="radiator" count="1" craft_area="workbench">
+	<ingredient name="shortMetalPipe" count="4"/>
+	<ingredient name="scrapBrass" count="400"/>
+	<ingredient name="bottledRiverWater" count ="5"/>
+	<ingredient name="forgedSteel" count="3"/>
+</recipe>
+
+<recipe name="radiated" count="1" craft_area="workbench">
+	<ingredient name="dirtFragment" count="50"/>
+</recipe>
+
+<!-- plastic plants-->
+
+
+<recipe name="plasticmums" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticgoldenrod" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticcoffee" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticcorn" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticcorndead" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticpotato" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticblueberry" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+<recipe name="plasticsnowberry" count="1">
+	<ingredient name="scrapPlastics" count="5"/>
+</recipe>
+
+
 
 
 

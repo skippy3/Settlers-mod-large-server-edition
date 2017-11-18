@@ -611,15 +611,23 @@
 	<item name="overalls"/>
 </lootgroup>
 
+<lootgroup name="buildingblocks">
+	<item name="glassBulletproofBlock" count="25"/>
+	<item name="pouredConcreteBlock" count="25"/>
+	<item name="rebarFrameBlock" count="250"/>
+	<item name="metalTrussingBlock" count="100"/>	
+	<item name="steelBlock" count="25"/>
+	<item name="stainlessSteelBlock" count="15"/>
+	<item name="iBeam" count="25"/>		
+</lootgroup>
+	
 <lootgroup name="buildingstuffs">
-	<item name="glassBulletproofBlock" count="40"/>
-	<item name="concreteMix" count="2000"/>
 	<item name="flagPoleWhiteRiver" prob="0.02"/>
-	<item name="barStool" count="10" />
-	<item name="workbench" count="1" />
+	<item name="barStool" count="10" prob="0.5" />
+	<item name="workbench" count="1" prob="0.09" />
 	<item name="electricParts" count="50" prob="1"/>
 	<item name="electronicParts" count="50" prob="0.5"/>
-	<item name="generatorbank" count="1" prob="0.09"/>
+	<item name="solarbank" count="1" prob="0.09"/>
 	<item name="batterybank" count="1" prob="0.09"/>
 	<item name="wallLight01_player" count="6" prob="1.0"/>
 	<item name="ceilingLight01_player" count="6" prob="1.0"/>
@@ -630,10 +638,9 @@
 	<item name="electrictimerrelay" count="3" prob="1.0"/>
 	<item name="electricwirerelay" count="15" prob="1.0"/>
 	<item name="motionsensor" count="2" prob="1.0"/>
-	<item name="switch" count="9" prob="1.0"/>
+	<item name="switch" count="5" prob="1.0"/>
 	<item name="chainsaw" prob="0.09"/>
 	<item name="auger" prob="0.09"/>
-	<item name="toolAndDieSet" prob="0.09"/>
 </lootgroup>
 	
 <lootgroup name="hazmatGear">
@@ -862,7 +869,7 @@
 	<item name="ironGlovesSchematic"/>
 	<item name="ironHelmetSchematic"/>
 	<item name="ironLegArmorSchematic"/>
-
+	<!--<item name="minibikesForDumbshits"/> -->
 	<item name="rocketLauncherSchematic"/>
 	<item name="shotgunSlugSchematic"/>
 	<item name="sledgehammerSchematic"/>
@@ -956,6 +963,7 @@
 	<item name="canPears"/>
 	<item name="foodHoney"/>
 	<item name="cornMeal"/>
+	<item name="chocolatebar"/>
 </lootgroup>
 
 <lootgroup name="seeds">
@@ -1006,7 +1014,7 @@
 	<item group="seeds" prob="0.05"/>
 	<item name="bottledWater" prob="0.5"/>
 	<item name="emptyJar" count="1,4"/>
-	<item name="electricParts" count="1,2" prob="0.05"/>
+	<item name="chocolatebar" count="1,2" prob="0.25"/>
 	<item name="potassiumNitratePowder" count="2,6" prob="0.15"/>
 	<item name="paint" count="2,100" prob="0.25"/>
 </lootgroup>
@@ -1399,11 +1407,13 @@
 </lootgroup>
 
 <lootgroup name="minibikeParts">
-	
-	
+	<!--<item name="minibikeChassis"/>
+	<item name="minibikeSeat"/>
+	<item name="minibikeHandlebars"/>
+	<item name="minibikeWheels"/>
 	<item name="smallEngine"/>
 	<item name="carBattery"/>
-	
+	<item name="padlock"/> -->
 </lootgroup>
 
 <lootgroup name="labEquipment">
@@ -1552,8 +1562,6 @@
 <!-- zombie cop-->
 <lootcontainer id="17" count="1,2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
 	<item group="junk" prob="3"/>
-	<item group="rottenFood" prob="1"/>
-	<item name="shamSandwich" count="1,5"/>
 	<item group="weaponsPistol+ammo" prob="1.1"/>
 	<item group="weaponsAnyShotguns+ammo" prob="1.1"/>
 	<item group="ammo"/>
@@ -1752,7 +1760,7 @@
 
 <!-- "bag" container that gets dropped when another loot container is destroyed -->
 <lootcontainer id="47" count="0" size="5,10" destroy_on_close="false" sound_open="UseActions/open_backpack" sound_close="UseActions/close_backpack" open_time="1" loot_quality_template="baseTemplate">
-	<item name="cobweb" count="1,2" prob="0.01"/>
+	<item name="cobweb" count="0" prob="0.01"/>
 </lootcontainer>
 
 <!-- purse -->
@@ -1834,7 +1842,7 @@
 
 <!-- Shamway Cardboard Loot-->
 <lootcontainer id="59" count="0,3" size="5,4" sound_open="UseActions/open_cardboard" sound_close="UseActions/close_cardboard" loot_quality_template="baseTemplate">
-	<item name="shamSandwich" count="1,3"/>
+	<item name="chocolatebar" count="1,3"/>
 	<item name="canHam" count="1,2"/>
 	<item group="coldfood"/>
 	<item group="beverages" count="1,2"/>
@@ -2136,7 +2144,6 @@
 	<item name="casinoCoin" count="1,1000" prob="200.5"/>
 	<item name="zombiemastercoin" count="1,100" prob="0.5"/>	
 	<item name="Myprecious" count="1" prob="0.005"/>
-	<item group="bodyloot" count="2" prob="5" />
 </lootcontainer>
 
 <!--Zombiecuriousgeorge-->
@@ -2146,7 +2153,6 @@
 	<item name="casinoCoin" count="1,1000" prob="200.5"/>
 	<item name="zombiemastercoin" count="1,100" prob="0.5"/>	
 	<item name="compoundBow" count="1"/>
-	<item group="bodyloot" count="2" prob="5" />
 </lootcontainer>
 
 <!-- ZombieFarmer -->
@@ -2375,10 +2381,10 @@
 </lootcontainer>
  
  <!-- chicken farms -->
-<lootcontainer id="105" count="3" size="3,3" sound_open="UseActions/open_garbage" sound_close="UseActions/close_garbage" loot_quality_template="baseTemplate">
-	<item name="egg" count="5"/>
-	<item name="feather" count="30"/>
-	<item name="rawMeat" count="5"/>
+<lootcontainer id="105" count="1" size="3,3" sound_open="Animals/Chicken/chickenpain" sound_close="Animals/Chicken/chickendeath" loot_quality_template="baseTemplate">
+	<item name="egg" count="3"/>
+	<item name="feather" count="10"/>
+	<item name="rawMeat" count="2"/>
 	<item name="goldenegg" count="1" prob="0.01"/>
 </lootcontainer>
 
@@ -2397,10 +2403,9 @@
 
 <!--homewrecker-->
 <lootcontainer id="107" count="2" size="5,4" destroy_on_close="true" sound_open="UseActions/open_shopping_cart" sound_close="UseActions/close_shopping_cart" loot_quality_template="baseTemplate">
-	<item name="paint" count="2000"/>
-	<item group="rareBooks" count="1" prob="0.05"/>
-	<item group="paintMagazines" count="1" prob="0.25"/>
-	<item group="buildingstuffs" count="2"/>
+	<item name="paint" count="1000"/>
+	<item group="buildingstuffs" count="1"/>
+	<item group="buildingblocks" count="1"/>
 </lootcontainer>
 
 <!--Bro-->
@@ -2429,6 +2434,49 @@
 	<item name="homewreckercoin" count="5" />
 </lootcontainer>
 
+<!-- horde zombies lvl1-->
+<lootcontainer id="111" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="zombiemastercoin" count="5"/>
+	<item name="oremastercoin" count="5"/>
+	<item name="stonemastercoin" count="5"/>
+	<item group="bodyloot" count="1" />
+	<item name="homewreckercoin" count="5" />
+	<item name="treasurecoinuseonmachine" count="5" />
+</lootcontainer>
 
+<!-- horde zombies lvl2-->
+<lootcontainer id="112" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="zombiemastercoin" count="7"/>
+	<item name="oremastercoin" count="7"/>
+	<item name="stonemastercoin" count="7"/>
+	<item group="bodyloot" count="1" />
+	<item name="homewreckercoin" count="7" />
+	<item name="treasurecoinuseonmachine" count="7" />
+</lootcontainer>
+
+<!--Bomba-->
+<lootcontainer id="113" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="bulletCasing" count="500"/>
+	<item name="bulletTip" count="500"/>
+	<item name="gunPowder" count="500"/>	
+	<item name="gunRocketLauncher" count="1" prob="0.15"/>
+</lootcontainer>
+ 
+ <!--The Murphy-->
+ 
+ <lootcontainer id="114" count="0,1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="thecure" count="1" prob="0.15"/>
+	<item name="naturesgift" count="1"/>
+</lootcontainer>
+
+<!--Enders-->
+
+ <lootcontainer id="115" count="1" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
+	<item name="naturesgift" count="1"/>
+	<item name="homewreckercoin" count="5"/>
+	<item name="treasurecoinuseonmachine" count="5"/>
+	<item name="rockSmall" count="1"/>
+	<item name="turd" count="1,2"/>
+</lootcontainer>
 
 </lootcontainers>

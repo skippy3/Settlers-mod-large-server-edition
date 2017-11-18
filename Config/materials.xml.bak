@@ -102,7 +102,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="stability_glue" value="0" />
 	<property name="movement_factor" value="0.75" />
 	<property name="Mass" type="int" value="0" />
-	<property name="movement_factor" value="3.00" />
+	<property name="movement_factor" value="1.1" />
 </material>
 
 <!-- All fertile ground materials -->
@@ -156,7 +156,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="Mass" type="int" value="10" />
 	<property name="MaxDamage" value="300" />
 	<property name="Experience" value="1.0"/>
-	<property name="movement_factor" value="5" />
+
 </material>
 
 <material id="Msodnormal">
@@ -404,7 +404,7 @@ Do not rename "basic" materials like cloth, metal, or stone. These auto-generate
 	<property name="Mass" type="int" value="10" />
 	<property name="MaxDamage" value="500" />
 	<property name="Experience" value="1.0"/>
-	<property name="movement_factor" value="1.8" />
+	<property name="movement_factor" value="0.3" />
 </material>
 
 

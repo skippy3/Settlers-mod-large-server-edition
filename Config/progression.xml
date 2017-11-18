@@ -2,7 +2,7 @@
 
 <progression>
 <player
-	max_level="275"
+	max_level="315"
 	exp_to_level="9545"
 	experience_multiplier="1.0149"
 	skill_points_per_level="6"
@@ -1125,6 +1125,22 @@
 		<recipe name="diamondboots" unlock_level="1"/>
 		<recipe name="diamondlegs" unlock_level="1"/>
 		<recipe name="diamondchest" unlock_level="1"/>
+	</perk>
+	
+	<perk name="Mayor" icon="ui_game_symbol_seats" description_key="mayorperkdes" title_key="Mayor" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="100" group="armor_iron">
+		<requirement perk_level="1" required_player_level="315"/>
+		<recipe name="towngenerator" unlock_level="1"/>
+		<recipe name="hiddentowerrelay" unlock_level="1"/>
+		<recipe name="carBattery" unlock_level="1"/>
+		<recipe name="electricchainLink" unlock_level="1"/>
+		<recipe name="electricchainLinkFenceBottomPole" unlock_level="1"/>
+		<recipe name="electricchainLinkFenceTop" unlock_level="1"/>
+		<recipe name="electricchainLinkFenceTopPole" unlock_level="1"/>
+		<recipe name="electricchainLinkPole" unlock_level="1"/>
+		<recipe name="electricchainLinkCornerTop" unlock_level="1"/>
+		<recipe name="electricchainLinkCornerBottom" unlock_level="1"/>
+		<recipe name="electricchainLinkFenceTopPole2" unlock_level="1"/>
+		<recipe name="mayorwireTool" unlock_level="1"/>
 	</perk>
 	
 	<perk name="Chicken Farms" icon="resource" description_key="chickenfarmskilldesc" title_key="Chicken Farms" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="misc_crafting">

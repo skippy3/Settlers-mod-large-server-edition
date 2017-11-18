@@ -1556,7 +1556,7 @@ candyTinDesc,items,Item,KgNone,Grandma's candy tin. Good for scrapping or a perf
 canEmpty,items,Item,KgNone,Empty Can,Conserve vide,Leere Dose,,Lata vacía
 canEmptyDesc,items,Item,KgNone,An empty can which you can scrap or fill with water.,Une conserve vide que vous pouvez recycler ou remplir d'eau.,"Eine leere Dose, die zerlegt oder mit Wasser gefüllt werden kann.",,Una lata vacía que puedes desechar o llenar de agua.
 carBattery,items,Item,KgNone,Lead Car Battery,Batterie de voiture en plomb,Bleibatterie für Autos,,Batería de coche de plomo
-carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
+carBatteryDesc,items,Item,KgNone,"Car batteries can be used in vehicles, scrapped for lead in your backpack or smelted at the forge for lead. Unlock the ability to build these with mayor perk.","Les batteries de voiture peuvent être utilisées sur les véhicules, recyclées en plomb dans votre sac à dos ou fondues dans la forge pour obtenir du plomb.","Autobatterien können für Fahrzeuge benutzt, für Blei im Rucksack zerlegt oder in der Schmiede eingeschmolzen werden.",,"Las baterías de coche se pueden usar en vehículos, despedazar para tener plomo en tu mochila o fundir en la fragua para obtener plomo."
 casinoCoin,items,Item,KgNone,Duke's Casino Token,Jeton du Duke's Casino,Jeton aus Dukes Kasino,,Ficha del casino de Duke
 casinoCoinDesc,items,Item,KgNone,A Duke's casino coin. After the epidemic and war it became the main currency for trading in Navezgane.,"Une pièce du Duke's Casino. Après l'épidémie et la guerre, ces pièces sont devenues la monnaie principale de Navezgane.",Ein Jeton aus Dukes Kasino. Nach der Seuche und dem Krieg wurden diese Jetons zur Hauptwährung in Navezgane.,,Una moneda del casino de Duke. Se convirtió en la moneda principal para comerciar en Navezgane tras la epidemia y la guerra.
 cement,items,Item,KgNone,Cement,Ciment,Zement,,Cemento
@@ -3640,7 +3640,7 @@ lootWorkstationsHelper,blocks,Container,New,Random Workstation Spawner,,,,
 lootWorkstationsHelperDesc,blocks,Container,New,"Can spawn a working:  forge, workbench, chemistryStation, cementMixer",,,,
 randomLootSpawnerDesc,blocks,Container,New,CREATIVE: Placed in a prefab this will spawn a random block / loot container.,,,,
 autoTurret,blocks,Electricity,New,Auto Turret,,,,
-autoTurretDesc,blocks,Electricity,New,"A motion sensing bullet hose. No really, this thing eats ammunition.",,,,
+autoTurretDesc,blocks,Electricity,New,"A motion sensing bullet hose. No really, this thing eats ammunition. There are many ways to obtain the ore needed for this",,,,
 batterybank,blocks,Electricity,New,Battery Bank,,,,
 bladeTrap,blocks,Electricity,New,Blade Trap,,,,
 bladeTrapDesc,blocks,Electricity,New,Used to chop up zombies into many pieces. Just add zombies and stir.,,,,
@@ -3664,7 +3664,7 @@ powerSourceDesc,blocks,Electricity,New,Used to generate power for your electrica
 pressureplate,blocks,Electricity,New,Trigger Plate 1x1,,,,
 pressureplateDesc,blocks,Electricity,New,Used to trigger electrical events when stepped on.,,,,
 shotgunTurret,blocks,Electricity,New,Shotgun Turret,,,,
-shotgunTurretDesc,blocks,Electricity,New,A motion sensing shotgun turret. What more needs to be said?,,,,
+shotgunTurretDesc,blocks,Electricity,New,A motion sensing shotgun turret. What more needs to be said? There are many ways to obtain the ore needed for this.,,,,
 solarbank,blocks,Electricity,New,Solar Bank,,,,
 speaker,blocks,Electricity,New,Speaker,,,,
 speakerDesc,blocks,Electricity,New,Makes an alarm sound when powered on.,,,,
@@ -4936,7 +4936,25 @@ paintballdesc,Items,Item,kgNone,This is a paintball. you can't eat it. unlock wi
 likeadolphindesc,buffs,buff,kgnone,"Made in Japan. Expires 02/21/1976.  To use this properly, submerge yourself first, than eat when you can not breath, doesn't apply while drowning, resets when you hit air.",
 altmeddesc,progression,Skill,KgNone,Learn this to unlock Nature's gift.  Can only learn once you reach 18.,
 homewreckermasterdesc,blocks,block,new,Build this with 40 iron than place on ground. Upgrade holding 125 homewreckercoins in your hand. Loot will break back down to Homewreckermaster. Leftover loot will drop as a bag.,
-homewreckercoindesc,items,Item,kgNone,Use these coins held in your hand to upgrade a Homewreckermaster. Found by destroying blocks,
+homewreckercoindesc,items,Item,kgNone,Use 125 coins held in your hand to upgrade a Homewreckermaster. Found by destroying blocks,
 animalGoredesc,blocks,Block,kgNone,Beware this will attract screamers!,
 goredecodesc,blocks,Block,kgNone,This gore block is a decoration it will not attract screamers or despawn.,
 yuckycharmsdesc,items, Item, KgNone,Seriously don't eat these. Sell them to a trader instead.,
+chocolatebardesc,items, Item, KgNone,"This should provide a bit of nutritious goodness, and bring you down a bit".,
+poleTop01desc,items, Item, KgNone,"You can fix relays to these, one on each end and use them as powerlines".,
+towngendesc,Items,Item,kgnone,"This thing produces serious power and holds tons of gas, unlocked with mayor perk at level 315".,
+mayorperkdes,progression,skill,kgnone,"You are the Ultimate player, command a town and recruit other players with your impressive tools",
+hiddentowerdesc,Items,Item,kgNone,This relay will make any wires coming from it hidden. Can be unlocked through mayor perk. Destroy to pick back up, or use your landclaim.,
+electchaindesc,Blocks,Block, KgNone,"Only one side of this block will shock zombies. It is the inside of the block you place it on, not the outside facing side.Zombies can climb these, Place carefully. Unlocks with mayor perk. Crafts in groups of 5".,
+emberdesc,Blocks,block,Kgnone,"These offer a small defense on horde night, only a chance to light zombies on fire, and doesn't do much damage, but it looks damned cool! Make embers in the campfire".,
+emberitemdesc,Items,Item,KgNone,"Burn these in the campfire to make embers, which can be crafted into early game emberpiles for defense.",
+grassbombdesc,Items,Item,KgNone,Cheap effective way of removing grass. Plus explosions are fun.,
+tiredesc,Blocks,Block,kgNone,"So common even traders don't want them. Can be scrapped into plastic, and turned into useful things, like arrows.",
+diamonddesc, Items,Item,KgNone,"Use these to build end game items like turrets, traps, armor and the o.p Diamond Tipped Auger, can not sell to trader.",
+golddesc,Items,Item,KgNone,"Use these to make super pills to solve any issue, or save them to make high end electronics (future)",
+flagdesc,Blocks,block,Kgnone,"Careful, this flagpole is really heavy. Make sure there is no space underneath it, or it will collapse",
+mayorwiredesc,Items,Item,KgNone"This wiring tool has 1.5 the reach of a regular tool (15 meters), behold the wired god mayor (Insert name here)! Unlocked with Mayor perk",
+militaryhelmetlightDesc,items,Clothes,KgNone, Slap a flashlight on this bitch.,
+birdsnestDesc,blocks,Blocks,Kgnone,Use these as decoration or to make chicken farms. They will not produce loot.,
+plasticplants,blocks,Blocks,Kgnone,These are for decoration, they can not be picked. Use plastic from tires on the road to make these.,
+thecuredesc,Items,Item,Kgnone,Congrats you finally got some of the blue one's blood. This cures everything., 

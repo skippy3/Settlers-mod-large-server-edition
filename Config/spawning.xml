@@ -562,189 +562,189 @@
 
 	<entityspawner name="RoamingHordeSpawnDay" dynamic="true" wrapMode="wrap">
 		<day value="1">
-			<property name="EntityGroupName"    value="ZombiesAll" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="Time"               value="Any" />
 			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="1" />
 			<property name="TotalPerWave"       value="1" />
 		</day>
 		<day value="2">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="2" />
 		  <property name="TotalPerWave"       value="2" />
 		</day>
 		<day value="3">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 		  <property name="TotalPerWave"       value="3" />
 		</day>
 		<day value="4">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="4" />
 		  <property name="TotalPerWave"       value="4" />
 		</day>
 		<day value="5">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 		  <property name="TotalPerWave"       value="5" />
 		</day>
 		<day value="6">
-		  <property name="EntityGroupName"    value="WolfGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 		  <property name="TotalPerWave"       value="5" />
 		</day>
 		<day value="7">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="8">
-		  <property name="EntityGroupName"    value="VultureGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15" />
 		</day>
 		<day value="9">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="8" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="10">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="11">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="12">
-		  <property name="EntityGroupName"    value="ZombieDogGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="2" />
 		  <property name="TotalPerWave"       value="2" />
 		</day>
 		<day value="13">
-		  <property name="EntityGroupName"    value="WolfPack" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10" />
 		</day>
 		<day value="14">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="15">
-		  <property name="EntityGroupName"    value="VultureGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="20" />
 		</day>
 		<day value="16">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="17">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="18">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="19">
-		  <property name="EntityGroupName"    value="ZombieDogGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 		  <property name="TotalPerWave"       value="5,8" />
 		</day>
 		<day value="20">
-		  <property name="EntityGroupName"    value="WolfPack" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="20" />
 		</day>
 		<day value="21">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="22">
-		  <property name="EntityGroupName"    value="VultureGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="25" />
 		</day>
 		<day value="23">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 		  <property name="TotalPerWave"       value="3" />
 		</day>
 		<day value="24">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="25">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="26">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="27">
-		  <property name="EntityGroupName"    value="ZombieDogGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
@@ -754,161 +754,161 @@
 
 	<entityspawner name="RoamingHordeSpawnNight" dynamic="true" wrapMode="wrap">
 		<day value="1">
-			<property name="EntityGroupName"    value="ZombiesAll" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="Time"               value="Any" />
 			<property name="DelayBetweenSpawns" value="3" />
 			<property name="TotalAlive"         value="3" />
 			<property name="TotalPerWave"       value="3" />
 		</day>
 		<day value="2">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 		  <property name="TotalPerWave"       value="5" />
 		</day>
 		<day value="3">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 		  <property name="TotalPerWave"       value="5,10" />
 		</day>
 		<day value="4">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 		  <property name="TotalPerWave"       value="5,10" />
 		</day>
 		<day value="5">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 		  <property name="TotalPerWave"       value="3,6" />
 		</day>
 		<day value="6">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="7">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="8">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="9">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="10">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="11">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		  <property name="TotalPerWave"       value="10,20" />
 		</day>
 		<day value="12">
-		  <property name="EntityGroupName"    value="ZombieDogGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 		  <property name="TotalPerWave"       value="4,7" />
 		</day>
 		<day value="13">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="14">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="15">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="16">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="17">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="18">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
 		  <property name="TotalPerWave"       value="15,25" />
 		</day>
 		<day value="19">
-		  <property name="EntityGroupName"    value="ZombieDogGroup" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="6" />
 		  <property name="TotalPerWave"       value="6" />
 		</day>
 		<day value="20">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="21">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="22">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="0" />
 		  <property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="23">
-		  <property name="EntityGroupName"    value="ZombiesNight" />
+		  <property name="EntityGroupName"    value="WanderingHordeCustom" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
@@ -919,59 +919,59 @@
 	<entityspawner name="NightHorde" dynamic="true" wrapMode="clamp"> <!-- these are feral hordes who will find the player for sure -->
 		<day value="*">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesNight" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="0" />
 			<property name="TotalPerWave"       value="0" />
 		</day>
 		<day value="7">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesNight" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="50" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="14">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesNight" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="100" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="21">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesWastelandNightNoBears" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="150" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="28">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesWastelandNightNoBears" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="175" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="35">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesWastelandNightNoBears" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="200" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="42">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesWastelandNightNoBears" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="250" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 		<day value="49">
 			<property name="ResetToday"         value="true" />
-			<property name="EntityGroupName"    value="ZombiesWastelandNight2NoBears" />
+			<property name="EntityGroupName"    value="WanderingHordeCustom" />
 			<property name="DelayBetweenSpawns" value="1" />
-			<property name="TotalAlive"         value="8" />
-			<property name="TotalPerWave"       value="300" />
+			<property name="TotalAlive"         value="16" />
+			<property name="TotalPerWave"       value="500" />
 		</day>
 	</entityspawner>
 
@@ -981,7 +981,7 @@
 			<property name="ResetToday"         value="true" />
 			<property name="EntityGroupName"    value="ZombieScouts" />
 			<property name="Time"               value="Any" />
-			<property name="DelayBetweenSpawns" value="1" />
+			<property name="DelayBetweenSpawns" value="3" />
 			<property name="TotalAlive"         value="1" />
 			<property name="TotalPerWave"       value="1" />
 		</day>
@@ -991,194 +991,194 @@
 	<!-- TotalAlive can never be more than 20 it is hard coded -->
 	<entityspawner name="HordeMeterDynamicSpawnDay" dynamic="true" >
 		<day value="1">
-			<property name="EntityGroupName"    value="ZombiesAll" />
+			<property name="EntityGroupName"    value="customscouts" />
 			<property name="Time"               value="Any" />
 			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="1" />
 
 		</day>
 		<day value="2">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="2" />
 
 		</day>
 		<day value="3">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 
 		</day>
 		<day value="4">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 
 		</day>
 		<day value="5">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="3" />
 
 		</day>
 		<day value="6">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="4" />
 
 		</day>
 		<day value="7">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 
 		</day>
 		<day value="8">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 
 		</day>
 		<day value="9">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="5" />
 
 		</day>
 		<day value="10">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="6" />
 
 		</day>
 		<day value="11">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="6" />
 
 		</day>
 		<day value="12">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="6" />
 
 		</day>
 		<day value="13">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 
 		</day>
 		<day value="14">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 		</day>
 		<day value="15">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 		</day>
 		<day value="16">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 		</day>
 		<day value="17">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 		</day>
 		<day value="18">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="7" />
 		</day>
 		<day value="19">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="8" />
 		</day>
 		<day value="20">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="8" />
 		</day>
 		<day value="21">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="8" />
 		</day>
 		<day value="22">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="9" />
 		</day>
 		<day value="23">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="9" />
 		</day>
 		<day value="24">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="9" />
 		</day>
 		<day value="25">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		</day>
 		<day value="26">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="10" />
 		</day>
 		<day value="27">
-		  <property name="EntityGroupName"    value="ZombiesAll" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="12" />
 		</day>
 		<day value="28,60">
-		  <property name="EntityGroupName"    value="ZombiesWastelandNight" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="12" />
 		</day>
 		<day value="61,90">
-		  <property name="EntityGroupName"    value="ZombiesWastelandNight2" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="12" />
 		</day>
 		<day value="*">
-		  <property name="EntityGroupName"    value="ZombiesWastelandNight2" />
+		  <property name="EntityGroupName"    value="customscouts" />
 		  <property name="Time"               value="Any" />
 		  <property name="DelayBetweenSpawns" value="1" />
 		  <property name="TotalAlive"         value="15" />
@@ -1187,7 +1187,7 @@
 
 	<entityspawner name="HordeMeterDynamicSpawnNight" dynamic="true">
 		<day value="*">
-			<property name="EntityGroupName"    value="ZombiesNight" />
+			<property name="EntityGroupName"    value="customscouts" />
 			<property name="Time"               value="Any" />
 			<property name="DelayBetweenSpawns" value="1" />
 			<property name="TotalAlive"         value="25" />
