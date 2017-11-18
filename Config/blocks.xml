@@ -288,7 +288,7 @@ tbnsew:
 </block>
 
 <block id="15" name="asphalt">
-	<property name="Material" value="Mconcrete"/>
+	<property name="Material" value="asphalt"/>
 	<property name="MaxDamage" value="1500"/>
 	<property name="Shape" value="Terrain"/>
 	<property name="Mesh" value="terrain"/>
