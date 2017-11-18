@@ -16670,7 +16670,7 @@ group desc for stuff like metal siding
 	<property name="Class" value="Gore"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Material" value="wood_weak"/>
-	<property name="MaxDamage" value="25"/>
+	<property name="MaxDamage" value="2"/>
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
 	<property name="Model" value="Furniture/coffin" param1="main_mesh"/>
