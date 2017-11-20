@@ -16673,8 +16673,8 @@ group desc for stuff like metal siding
 	<property name="MaxDamage" value="2"/>
 	<property name="Shape" value="Ext3dModel"/>	<property name="Texture" value="293"/>
 	<property name="Mesh" value="models"/>
-	<property name="Model" value="Furniture/coffin" param1="main_mesh"/>
-	<property name="ImposterExchange" value="imposterPlate" param1="1"/>
+	<property name="Model" value="OutdoorDecor/grave_stone05" />
+	<property name="ImposterDontBlock" value="true"/>	
 	<property name="Place" value="TowardsPlacerInverted"/>
 	<property name="Tag" value="Gore"/>
 	<property name="IsTerrainDecoration" value="true"/>

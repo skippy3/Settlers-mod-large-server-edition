@@ -1437,7 +1437,7 @@
 
 <lootgroup name="bodyloot" >
 	<item name="rottingFlesh" count="1" prob="15.0" />
-	<item name="femur" count ="1" prob="5.0" />
+	<item name="femur" count ="5" prob="5.0" />
 	<item name="animalFat" count ="1" prob="0.5" />	
 </lootgroup>
 
